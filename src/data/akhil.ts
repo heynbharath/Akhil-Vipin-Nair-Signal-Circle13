@@ -16,7 +16,7 @@ const akhil: TeamMember = {
     { platform: "X", url: "https://x.com/amazingakhil07", icon: "Twitter" },
     { platform: "Reddit", url: "https://www.reddit.com/user/AkhilNair2006/", icon: "Reddit" },
     { platform: "Substack", url: "https://substack.com/@akhilvipinnair/", icon: "Substack" },
-    { platform: "Email", url: "mailto:akhil@circle13.space", icon: "Mail" },
+    { platform: "Email", url: "mailto:amazingakhil2006@gmail.com", icon: "Mail" },
   ],
   sections: [
     {
@@ -67,9 +67,9 @@ const akhil: TeamMember = {
         },
         {
           label: "Email",
-          url: "mailto:akhil@circle13.space",
+          url: "mailto:amazingakhil2006@gmail.com",
           icon: "Mail",
-          description: "akhil@circle13.space",
+          description: "amazingakhil2006@gmail.com",
         },
         {
           label: "Personal Website",
