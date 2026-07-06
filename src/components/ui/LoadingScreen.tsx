@@ -32,24 +32,17 @@ export function LoadingScreen() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
             className="flex flex-col items-center gap-3"
           >
-            {/* Glass diamond icon */}
-            <div className="w-[48px] h-[48px] rounded-[14px] flex items-center justify-center border border-white/20"
-              style={{
-                background: "rgba(255,255,255,0.06)",
-                boxShadow: "inset 0 0 16px -4px rgba(255,255,255,0.4), 0 4px 20px rgba(0,0,0,0.3)"
-              }}
-            >
-              <Image src="/brand/C13-logo.png" alt="C13 Logo" width={28} height={28} className="object-contain" />
+            {/* Complete Brand Logo */}
+            <div className="w-[180px] sm:w-[240px] md:w-[320px] h-auto flex items-center justify-center opacity-90 drop-shadow-[0_0_15px_rgba(255,255,255,0.15)]">
+              <Image 
+                src="/brand/Circle13-logo-white-transparent.png" 
+                alt="Circle13 Logo" 
+                width={320} 
+                height={80} 
+                className="w-full h-auto object-contain"
+                priority
+              />
             </div>
-            {/* Text */}
-            <motion.div
-              initial={{ opacity: 0, y: 4 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.6 }}
-              className="mt-1 flex justify-center opacity-40"
-            >
-              <Image src="/brand/Circle13-logo-white.svg" alt="Circle13 Logo" width={80} height={20} />
-            </motion.div>
           </motion.div>
         </motion.div>
       )}
