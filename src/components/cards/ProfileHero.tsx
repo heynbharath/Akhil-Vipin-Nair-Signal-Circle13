@@ -137,9 +137,7 @@ export function ProfileHero({ member }: { member: TeamMember }) {
               >
                 {/* Iridescent shimmer overlay */}
                 <div className="absolute inset-0 bg-white/35 mix-blend-overlay animate-pulse" />
-                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black font-black drop-shadow-sm">
-                  <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+                <img src="/brand/Circle13-logo-black.svg" alt="Circle13 Verified" className="w-[12px] h-[12px] object-contain drop-shadow-sm opacity-90" />
               </button>
 
               {/* Luxury Tooltip */}

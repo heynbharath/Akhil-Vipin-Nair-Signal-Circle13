@@ -336,8 +336,8 @@ END:VCARD`;
                         {/* Liquid Glass C13 Logo */}
                         <div className="w-16 h-16 rounded-full flex items-center justify-center relative shrink-0 select-none liquid-glass !rounded-full shadow-lg">
                           <div className="absolute inset-0 bg-white/10 skew-x-12 -translate-x-full animate-[shine_4s_infinite]" />
-                          <div className="font-sans font-[900] text-[22px] text-white tracking-tighter drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] select-none relative z-10">
-                            C13
+                          <div className="relative z-10 w-full h-full flex items-center justify-center p-[10px]">
+                            <img src="/brand/C13-logo.png" alt="C13" className="w-full h-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]" />
                           </div>
                         </div>
                       </div>
