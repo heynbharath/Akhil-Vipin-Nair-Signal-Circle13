@@ -622,10 +622,8 @@ END:VCARD`;
                       onClick={downloadvCard}
                       className="w-full py-3.5 rounded-[16px] font-bold text-white/85 hover:text-white text-[13.5px] flex items-center justify-center gap-1.5 cursor-pointer bg-white/5 border border-white/15 hover:bg-white/10 transition-all active:scale-[0.98]"
                     >
-                      <span className="font-sans font-black text-[12px] tracking-tighter bg-white/15 px-1.5 py-0.5 rounded shadow-sm text-white border border-white/20">
-                        C13
-                      </span>
-                      C13
+                      <Image src="/brand/C13-logo.png" alt="C13" width={20} height={20} className="mr-1 inline-block drop-shadow-md" />
+                      Save Contact
                     </button>
                   </motion.div>
                 )}
