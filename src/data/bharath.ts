@@ -10,12 +10,12 @@ const bharath: TeamMember = {
   coverPhoto: "/images/team/bharath-cover.jpeg",
   status: "Building in public",
   socials: [
-    { platform: "LinkedIn", url: "https://www.linkedin.com/in/n-bharath-2b86311b9/", icon: "Linkedin" },
+    { platform: "LinkedIn", url: "https://www.linkedin.com/in/heynbharath/", icon: "Linkedin" },
     { platform: "WhatsApp", url: "https://wa.me/918618698941", icon: "WhatsApp" },
-    { platform: "Instagram", url: "https://www.instagram.com/bharath_theunassailable/", icon: "Instagram" },
-    { platform: "X", url: "https://x.com/nbharath_1306", icon: "Twitter" },
+    { platform: "Instagram", url: "https://www.instagram.com/heynbharath/", icon: "Instagram" },
+    { platform: "X", url: "https://x.com/heynbharath", icon: "Twitter" },
     { platform: "Reddit", url: "https://www.reddit.com/user/Longjumping_Rip8436/", icon: "Reddit" },
-    { platform: "Substack", url: "https://substack.com/@nbharath1306", icon: "Substack" },
+    { platform: "Substack", url: "https://substack.com/@heynbharath", icon: "Substack" },
     { platform: "Email", url: "mailto:n.bharath3430@gmail.com", icon: "Mail" },
   ],
   sections: [
@@ -49,9 +49,9 @@ const bharath: TeamMember = {
       links: [
         {
           label: "Instagram",
-          url: "https://www.instagram.com/circle13.signal/",
+          url: "https://www.instagram.com/heynbharath/",
           icon: "Instagram",
-          description: "@circle13.signal",
+          description: "@heynbharath",
         },
         {
           label: "Reddit",
@@ -61,9 +61,9 @@ const bharath: TeamMember = {
         },
         {
           label: "Substack",
-          url: "https://substack.com/@nbharath1306",
+          url: "https://substack.com/@heynbharath",
           icon: "Substack",
-          description: "@nbharath1306",
+          description: "@heynbharath",
         },
         {
           label: "Email",
