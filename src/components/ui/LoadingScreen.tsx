@@ -30,23 +30,26 @@ export function LoadingScreen() {
             initial={{ opacity: 0, scale: 0.8, filter: "brightness(2) blur(12px)" }}
             animate={{ opacity: 1, scale: 1, filter: "brightness(1) blur(0px)" }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
-            className="flex flex-col items-center gap-4"
+            className="flex flex-col items-center gap-3"
           >
-            {/* Brand Logo */}
-            <img 
-              src="/brand/Circle13-logo-white.svg" 
-              alt="Circle13 Logo" 
-              className="w-16 h-16 object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]"
-            />
+            {/* Glass diamond icon */}
+            <div className="w-[48px] h-[48px] rounded-[14px] flex items-center justify-center border border-white/20"
+              style={{
+                background: "rgba(255,255,255,0.06)",
+                boxShadow: "inset 0 0 16px -4px rgba(255,255,255,0.4), 0 4px 20px rgba(0,0,0,0.3)"
+              }}
+            >
+              <Image src="/brand/C13-logo.png" alt="C13 Logo" width={28} height={28} className="object-contain" />
+            </div>
             {/* Text */}
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 4 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.6 }}
-              className="text-[12px] text-white/50 tracking-[0.4em] uppercase font-medium"
+              className="mt-1 flex justify-center opacity-40"
             >
-              Circle13
-            </motion.p>
+              <Image src="/brand/Circle13-logo-white.svg" alt="Circle13 Logo" width={80} height={20} />
+            </motion.div>
           </motion.div>
         </motion.div>
       )}

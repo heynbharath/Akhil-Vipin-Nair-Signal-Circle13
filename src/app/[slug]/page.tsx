@@ -87,15 +87,27 @@ export default async function MemberPage({ params }: { params: Params }) {
             )}
           </div>
 
-          <footer className="mt-14 flex justify-center">
+          <footer className="mt-14 flex justify-center pb-8">
             <a
               href="https://circle13.space"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[12px] tracking-[0.05em] transition-colors duration-300 hover:text-white"
-              style={{ color: "rgba(255, 255, 255, 0.55)" }}
+              className="group flex flex-col items-center gap-3"
             >
-              circle13.space
+              <div className="relative w-10 h-10 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-12">
+                <Image
+                  src="/brand/Circle13-logo-white.svg"
+                  alt="Circle13 Logo"
+                  fill
+                  className="object-contain opacity-50 group-hover:opacity-100 transition-opacity duration-300 drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]"
+                />
+              </div>
+              <span 
+                className="text-[12px] tracking-[0.05em] transition-colors duration-300 group-hover:text-white font-medium"
+                style={{ color: "rgba(255, 255, 255, 0.55)" }}
+              >
+                circle13.space
+              </span>
             </a>
           </footer>
         </div>
